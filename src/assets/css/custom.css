@@ -1,0 +1,257 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.table-overflow {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.user-image-back {
+  background-color: #8b7bff;
+}
+
+.form-section {
+  margin: 3rem 0;
+  border-radius: 10px;
+  padding: 3rem;
+  background: #fff;
+  border: 1px solid #dddddd;
+  box-shadow: 0px 35px 25px -19px rgba(0, 0, 0, 0.75),
+    -2px -5px 30px -5px rgba(168, 168, 168, 0.75);
+}
+
+.login-title {
+  margin-bottom: 2rem;
+}
+
+.login-btn {
+  width: 100%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23) !important;
+}
+
+.ant-upload-select-picture-card i {
+  color: #999;
+  font-size: 32px;
+}
+
+.ant-upload-select-picture-card .ant-upload-text {
+  margin-top: 8px;
+  color: #666;
+}
+
+.ant-upload-list-picture-card .ant-upload-list-item {
+  float: left;
+  margin: 0 12px 8px 0;
+}
+
+.profilePopup {
+  padding: 1rem 2rem;
+  font-size: 12px;
+  font-weight: 400;
+  background-color: #ddd;
+  color: #464646;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.profilePopup .res {
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.detail-page .ant-page-header {
+  background-color: #eee;
+  padding: 1rem 2rem;
+  margin-bottom: 5rem;
+  border: 1px solid #999;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 0px #dddddd;
+}
+
+.detail-page .ant-page-header .ant-page-header-back {
+  border-radius: 50%;
+  background-color: #aaaaaa;
+  padding: 1rem;
+}
+
+.user-card {
+  height: fit-content;
+  /* color: white; */
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 10px;
+  /* border: 1px solid #ddd; */
+  background-color: #ffffff;
+  font-weight: bold;
+}
+
+.user-card p {
+  margin-bottom: 0;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.logout-btn {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.upload-status-form {
+  margin-bottom: 3rem;
+  padding: 3rem 2rem;
+  border-radius: 10px;
+  background-color: #eeeeee;
+}
+
+.download-btn {
+  background-color: green;
+  padding: 5px 10px;
+  margin: 1rem 0 0 0;
+  width: fit-content;
+  border-radius: 5px;
+}
+
+.download-btn a {
+  color: white;
+}
+
+.download-btn a:hover {
+  color: white;
+}
+
+.label-checks .ant-form-item {
+  margin-bottom: 0;
+  margin-left: 1rem;
+}
+
+.label-checks .ant-form-item-control {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.label-checks .ant-form-item-explain {
+  margin-left: 1rem;
+}
+
+.form-div {
+  background-color: whitesmoke;
+  padding: 1rem 2rem !important;
+  border-radius: 5px;
+}
+
+.maintain-height {
+  min-height: 80vh !important;
+}
+
+.spin-message {
+  margin: 0 auto;
+}
+
+@media (min-width: 1001px) and (max-width: 1300px) {
+  .spin-message {
+    margin: 25rem;
+    width: 260px;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1600px) {
+  .spin-message {
+    margin: 25rem 40rem;
+    width: 260px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+  .spin-message {
+    margin: 20rem;
+    width: 250px;
+  }
+}
+
+@media (min-width: 1601px) and (max-width: 1780px) {
+  .spin-message {
+    margin: 20rem 45rem;
+    width: 280px;
+  }
+}
+
+@media (min-width: 1801px) {
+  .spin-message {
+    margin: 24rem 58rem;
+    width: 280px;
+  }
+}
+
+.remarks-list {
+  /* background-color: whitesmoke; */
+  padding: 1rem !important;
+  border-radius: 5px;
+  margin-bottom: 2rem !important;
+  box-shadow: 0px 5px 10px 0px #dddddd;
+}
+
+/* For mobile phones: */
+
+@media only screen and (max-width: 768px) {
+  .ant-layout {
+    padding: 0 !important;
+  }
+
+  .ant-layout-content {
+    padding: 10px !important;
+  }
+
+  .ant-layout-header {
+    padding: 0 1rem !important;
+  }
+
+  .lmo-navbar h4 {
+    font-size: 14px !important;
+  }
+
+  .ant-drawer-body {
+    padding: 1rem 0 !important;
+  }
+
+  .form-section {
+    margin: 2rem 0;
+  }
+
+  .table-component h4 {
+    font-size: 16px !important;
+  }
+}
+
+.lmo-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #000;
+}
+
+.tu {
+  text-decoration: underline;
+}
+
+.tab-height {
+  min-height: 90vh;
+}
+
+.image_popup {
+  height: 500px;
+  width: 100%;
+  object-fit: contain;
+}

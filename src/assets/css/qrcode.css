@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+.qr-wrapper {
+  width: 22rem;
+  font-family: "Poppins", sans-serif;
+  background: #fc0c00;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  padding: 3rem 2rem;
+
+  margin-bottom: 5rem;
+}
+
+.qr-wrapper img {
+  height: 100px;
+}
+
+.qr-wrapper h1 {
+  font-size: 26px;
+}
+
+.qr-wrapper h4 {
+  font-size: 22px;
+}
